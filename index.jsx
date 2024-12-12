@@ -17,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
       </Routes>
+      <footer>@2024 VanLife.</footer>
     </BrowserRouter>
   )
 }
